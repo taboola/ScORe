@@ -1,0 +1,56 @@
+[
+  {
+    "someStr": "bla",
+    "someLong": 12345678987654321,
+    "someDouble": 0.1,
+    "someBoolean": true,
+    "someStrArray": ["a", "b", "c"],
+    "someComplexArray": [{"col1": 1, "col2": 2}],
+    "struct": {
+      "col1": 1,
+      "col2": 2,
+      "col3": 3,
+      "condition": true,
+      "subArray": [1, 2, 3]
+    },
+    "nestedStruct": {
+      "childStruct": {
+        "col1": 1,
+        "col2": 2
+      },
+      "str": "str"
+    },
+    "someArrayOfArrays": [[0,1,2], [4,5,6]],
+    "someArrayOfComplexArrays": [{"col1": 1, "col2": [1,2,3]}],
+    "crazyStruct": {
+      "justAString": "x",
+      "repeatedStuff": [
+        {
+          "justABool": true,
+          "longArray":  [1,2,3],
+          "anotherRepeatedStuff": [
+            {
+              "innerField1": "y",
+              "innerField2": "z"
+            }
+          ]
+        }
+      ]
+    },
+    "mapOfArray" : [
+      {
+        "someKey" : "key",
+        "someValue": [
+          {
+            "someStruct": {
+                "val1": "a",
+                "val2": "b",
+                "val3": 123,
+                "val4": "c"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
