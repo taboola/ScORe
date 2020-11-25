@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration >
+    <Appenders>
+        <Console name="CONSOLE">
+            <PatternLayout>
+                <pattern>%d %-5p [%t] %c{3} %x - %m%n</pattern>
+            </PatternLayout>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="CONSOLE"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
+
+

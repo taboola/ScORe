@@ -1,0 +1,96 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+    <!-- AGGREGATE POM - testing hook system test -->
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.taboola</groupId>
+    <artifactId>sql-sor-root</artifactId>
+    <version>1.0.0</version>
+    <description>Spark Sql Schema on Read</description>
+    <name>SqlSoR</name>
+    <packaging>pom</packaging>
+
+    <properties>
+        <java-source-version>1.8</java-source-version>
+        <java-target-version>1.8</java-target-version>
+        <log4j2.version>2.14.0</log4j2.version>
+    </properties>
+
+    <modules>
+        <module>sql-sor</module>
+    </modules>
+
+    <profiles>
+        <profile>
+            <id>default</id>
+            <activation>
+                <property>
+                    <name>!spark</name>
+                </property>
+            </activation>
+            <properties>
+                <spark.version>2.2.3</spark.version>
+                <scala.version>2.11</scala.version>
+                <hadoop.client.version>2.7.3</hadoop.client.version>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>spark-2.2.3</id>
+            <activation>
+                <property>
+                    <name>spark</name>
+                    <value>2.2</value>
+                </property>
+            </activation>
+            <properties>
+                <spark.version>2.2.3</spark.version>
+                <scala.version>2.11</scala.version>
+                <hadoop.client.version>2.7.3</hadoop.client.version>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>spark-3.0.1</id>
+            <activation>
+                <property>
+                    <name>spark</name>
+                    <value>3.0</value>
+                </property>
+            </activation>
+            <properties>
+                <spark.version>3.0.1</spark.version>
+                <scala.version>2.12</scala.version>
+                <hadoop.client.version>3.2.1</hadoop.client.version>
+            </properties>
+        </profile>
+    </profiles>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java-source-version}</source>
+                    <target>${java-target-version}</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+                <version>3.8.1</version>
+            </plugin>
+        </plugins>
+    </build>
+    <repositories>
+        <repository>
+            <id>maven-central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <snapshots>
+                <updatePolicy>never</updatePolicy>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+
+</project>

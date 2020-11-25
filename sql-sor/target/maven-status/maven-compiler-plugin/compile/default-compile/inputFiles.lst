@@ -1,0 +1,11 @@
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/SchemaOnReadExtractor.java
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/VisitorBiConsumer.java
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/RelationSchema.java
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/TreeNodeProcessingRegistry.java
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/SchemaOnReadGenerator.java
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/SQLParsedExpression.java
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/SchemaElementImpl.java
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/SchemaElement.java
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/SchemaOnReadUtils.java
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/SchemaOnReadState.java
+/Users/lior.c/git/SqlSoR/sql-sor/src/main/java/com/taboola/spark/sql/schemagen/SQLExpressionParser.java
