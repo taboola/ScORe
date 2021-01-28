@@ -1,4 +1,4 @@
-package com.taboola.spark.sql.schemagen;
+package com.taboola.spark.sql.scisors;
 
 import java.util.HashSet;
 import java.util.List;

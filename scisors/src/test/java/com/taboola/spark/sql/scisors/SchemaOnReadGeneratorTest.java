@@ -1,4 +1,4 @@
-package com.taboola.spark.sql.schemagen;
+package com.taboola.spark.sql.scisors;
 
 import static org.apache.spark.sql.functions.broadcast;
 import static org.junit.Assert.assertEquals;
@@ -15,7 +15,6 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
-import org.apache.spark.sql.SaveMode;
 import org.apache.spark.sql.SparkSession;
 import org.apache.spark.sql.api.java.UDF2;
 import org.apache.spark.sql.types.DataTypes;
