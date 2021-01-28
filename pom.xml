@@ -8,7 +8,7 @@
     <artifactId>scisors-root</artifactId>
     <version>1.0.0</version>
     <description>Schema on Read Generator</description>
-    <name>SqlSoR</name>
+    <name>SciSoRs</name>
     <packaging>pom</packaging>
 
     <properties>
