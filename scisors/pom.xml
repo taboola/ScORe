@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>sql-sor-root</artifactId>
+        <artifactId>scisors-root</artifactId>
         <groupId>com.taboola</groupId>
         <version>1.0.0</version>
     </parent>
 
     <groupId>org.example</groupId>
-    <artifactId>sql-sor</artifactId>
+    <artifactId>scisors</artifactId>
 
     <dependencies>
         <dependency>

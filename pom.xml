@@ -5,9 +5,9 @@
     <!-- AGGREGATE POM - testing hook system test -->
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.taboola</groupId>
-    <artifactId>sql-sor-root</artifactId>
+    <artifactId>scisors-root</artifactId>
     <version>1.0.0</version>
-    <description>Spark Sql Schema on Read</description>
+    <description>Schema on Read Generator</description>
     <name>SqlSoR</name>
     <packaging>pom</packaging>
 
@@ -18,7 +18,7 @@
     </properties>
 
     <modules>
-        <module>sql-sor</module>
+        <module>scisors</module>
     </modules>
 
     <profiles>
