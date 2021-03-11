@@ -1,4 +1,4 @@
-package com.taboola.spark.sql.scisors;
+package com.taboola.spark.sql.score;
 
 import java.io.IOException;
 import java.util.ArrayList;

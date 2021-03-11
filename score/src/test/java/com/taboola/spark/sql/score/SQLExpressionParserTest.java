@@ -1,4 +1,4 @@
-package com.taboola.spark.sql.scisors;
+package com.taboola.spark.sql.score;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
