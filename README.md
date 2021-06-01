@@ -10,6 +10,8 @@ We use ScORe as best effort solution, so in case we fail to generate the schema 
 
 If you have dozens or hundreds of different queries running over data with nested schema, ScORe will provide you with a tailor-made schema on read, rather than having you define it manually per each query.  
 
+For further reading: https://engineering.taboola.com/spark-sql-score/
+
 # Example usage
 
     SparkContext sc = new SparkContext("local", "Example"); 
